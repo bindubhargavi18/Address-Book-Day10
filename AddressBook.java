@@ -118,7 +118,7 @@ class AddressBook
 				}
 				System.out.println();
 				System.out.println("Address book after editing details:");
-				System.out.println("-------------------------");
+				System.out.println("----------------------------");
 				for(i=0;i<number;i++)
 				{
 					info=contact.get(i);
