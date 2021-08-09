@@ -9,6 +9,7 @@ class AddressBook
 	long phn;
 	int number;
 	Contacts info;
+	
 	void addContact()
 	{
 		number=sc.nextInt();
