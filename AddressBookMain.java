@@ -6,9 +6,11 @@ class AddressBookMain
 		System.out.println("Welcome to Address book program..");
 		AddressBook book=new AddressBook();
 		Scanner sc=new Scanner(System.in);
+		
 		System.out.println();
 		System.out.println("How many contacts u want to enter:");
 		book.addContact();
+
 		System.out.println();
 		System.out.println("Do you want to edit the contact? yes or no ");
 		String option=sc.next();
@@ -18,6 +20,7 @@ class AddressBookMain
 			System.out.println("Enter first name to edit:");
 			book.editContact();
 		}
+		
 		System.out.println();
 		System.out.println("Do u want to delete a contact? yes or no");
 		option=sc.next();
