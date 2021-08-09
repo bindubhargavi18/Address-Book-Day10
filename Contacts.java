@@ -20,7 +20,6 @@ class Contacts
 		this.phn=phn;
 		this.email=email;
 	}
-	
 	public void setFirstName(String firstName)
 	{
 		this.firstName=firstName;
