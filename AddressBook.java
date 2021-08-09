@@ -132,4 +132,29 @@ class AddressBook
 			
 		}
 	}
+
+
+	void deleteContact()
+	{
+		System.out.println();
+		System.out.println("Enter first name to delete:");
+		firstName=sc.next();
+		int flag=0;
+		for(int i=0;i<contact.size();i++)
+		{
+			info=contact.get(i);
+			if(firstName.equals(info.firstName))
+			{
+				contact.remove(info);
+				flag=1;
+				System.out.println();
+				System.out.println("Contact has been deleted...");
+			}
+		}
+		if(flag==0)
+		{
+			System.out.println();
+			System.out.println("First name is not found in address book..");
+		}
+	}
 }

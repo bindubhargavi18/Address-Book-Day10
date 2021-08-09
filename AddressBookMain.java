@@ -18,5 +18,12 @@ class AddressBookMain
 			System.out.println("Enter first name to edit:");
 			book.editContact();
 		}
+		System.out.println();
+		System.out.println("Do u want to delete a contact? yes or no");
+		option=sc.next();
+		if(option.equals("yes"))
+		{
+			book.deleteContact();
+		}
 	}
 }
