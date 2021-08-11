@@ -56,7 +56,7 @@ class AddressBook
 			{
 				System.out.println();
 				System.out.println("Do u want to edit entire contact details? yes or no");
-				String ch=sc.next();
+				String ch=sc.next().toLowerCase();
 				if(ch.equals("yes"))
 				{
 					System.out.println("Enter your new address:");

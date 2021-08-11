@@ -19,11 +19,7 @@ class Contacts
 		this.zip=zip;
 		this.phn=phn;
 		this.email=email;
-<<<<<<< HEAD
-	}	
-=======
 	}
->>>>>>> uc4-DeleteContact
 	public void setFirstName(String firstName)
 	{
 		this.firstName=firstName;
